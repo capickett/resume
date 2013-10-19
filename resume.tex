@@ -1,4 +1,4 @@
-\documentclass[11pt,letterpaper,sans]{moderncv}
+\documentclass[10pt,letterpaper,sans]{moderncv}
 
 %% ModernCV theme
 \moderncvstyle{banking} % casual, classic, oldstyle, banking
@@ -11,7 +11,7 @@
 % \usepackage[T1]{fontenc}
 
 %% Adjust the page margins
-\usepackage[scale=0.82]{geometry}
+\usepackage[margin=0.5in]{geometry}
 
 %% Allow for hyperlinks
 \usepackage[unicode,colorlinks]{hyperref}
@@ -44,15 +44,11 @@
 
 \section{Skills}
 \subsection{Software}
-\cvlistitem{Proficiency with C/C++, Java, and Python}
-\cvlistitem{Git repositories and Gerrit code review}
-\cvlistitem{Android application framework and user interface}
-\cvlistitem{MySQL database design using InnoDB engine}
+\cvlistdoubleitem{Proficiency with C/C++, Java, and Python}{Git repositories and Gerrit code review}
+\cvlistdoubleitem{Android application framework and user interface}{MySQL database design using InnoDB engine}
 \subsection{Hardware}
-\cvlistitem{Designs utilizing Atmel ATMEGA and UC3, and TI MSP430 microcontrollers}
-\cvlistitem{Implementing hardware data security using AES-256}
-\cvlistitem{Designing for  high speed communication using USB, Bluetooth, or WiFi}
-\cvlistitem{PCB layout and routing with 4 or less layers}
+\cvlistdoubleitem{Designs utilizing Atmel ATMEGA and UC3, and TI MSP430 microcontrollers}{Implementing hardware data security using AES-256}
+\cvlistdoubleitem{Designing for  high speed communication using USB, Bluetooth, or WiFi}{PCB layout and routing with high-density BGA packages}
 
 \section{Education}
 %% \cventry{Date--Date}{Degree}{School}{City, State}{Grade}{Description}
@@ -61,12 +57,6 @@
     \item Cumulative GPA of 3.77
     \item Focus: systems programming, embedded systems, ubiquitous computing
     \item Expected to graduate March of 2014
-  \end{itemize}
-}
-\cventry{2009--2011}{Associate of Arts and Sciences}{Bellevue College}{Bellevue, WA}{}{
-  \begin{itemize}
-    \item Focus: Computer Science
-    \item Graduated with distinction
   \end{itemize}
 }
 
@@ -83,7 +73,7 @@
 
 \cventry{January 2012--Now}{Undergraduate Researcher}{UbiComp Lab}{University of Washington}{}{
   \begin{itemize}
-    \item Designed and implemented a high-concurrency server backend for \href{http://ubicomplab.cs.washington.edu/wiki/SpiroSmart}{SpiroSmart} using Nginx; \href{http://tornadoweb.org/}{Tornado}, a Python server framework; and MySQL.
+    \item Designed and implemented a high-concurrency server for \href{http://ubicomplab.cs.washington.edu/wiki/SpiroSmart}{SpiroSmart} using Nginx; \href{http://tornadoweb.org/}{Tornado}, a Python server framework; and MySQL.
     \item Designed an Android library to communicate with aforementioned server using Google's \href{http://code.google.com/p/google-http-java-client/}{http-java-client} and \href{http://code.google.com/p/google-gson/}{gson} libraries.
     \item Implemented a wireless signal-processing unit for \href{http://ubicomplab.cs.washington.edu/wiki/ElectriSense}{Electrisense} using Lua and C on an OpenWRT-enabled router SoC and Atmel microprocessor.
   \end{itemize}
@@ -91,7 +81,7 @@
 
 \cventry{2010--2012}{Code Contributor}{CyanogenMod}{}{}{
   \begin{itemize}
-    \item Contributed code to the gingerbread and icecream sandwich branches of \href{http://cyanogenmod.org/}{CyanogenMod}, an open source fork of the Android Open Source Project.
+    \item Contributed code to the gingerbread and icecream sandwich branches of \href{http://cyanogenmod.org/}{CyanogenMod}, a fork of the Android Open Source Project.
     \item Provided bugfixes and implemented requested functionality for the user interface using Java.
   \end{itemize}
 }
@@ -105,18 +95,17 @@
 \section{References}
 \cventry{}{PhD student}{Sidhant Gupta}{UbiComp Lab}{Computer Science and Engineering}{
   \href{mailto:sidhant@cs.washington.edu}{sidhant@cs.washington.edu}\\
-  \href{http://homes.cs.washington.edu/~sidhant
-}{http://homes.cs.washington.edu/\textasciitilde{}sidhant/}\\
+  \href{http://homes.cs.washington.edu/~sidhant}{http://homes.cs.washington.edu/\textasciitilde{}sidhant/}\\
   (206) 651-4055
 }
-\vspace{11pt}
+\vspace{10pt}
 
 \cventry{}{Assistant Professor}{Eric C. Larson}{Southern Methodist University}{Bobby B. Lyle School of Engineering}{
   \href{mailto:eclarson@lyle.smu.edu}{eclarson@lyle.smu.edu}\\
-  \href{http://eclarson.com}{http://eclarson.com}
+  \href{http://eclarson.com}{http://eclarson.com}\\
   (214) 768-7846
 }
-\vspace{11pt}
+\vspace{10pt}
 
 \cventry{}{Assistant manager}{Russell Calcote}{Klahanie QFC}{}{
   \href{mailto:russell.calcote@stores.qfci.com}{russell.calcote@stores.qfci.com}\\

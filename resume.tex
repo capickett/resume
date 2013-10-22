@@ -7,19 +7,20 @@
 \nopagenumbers{}
 
 %% Character encoding
-% \usepackage[utf8]{inputenc}
-% \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 
 %% Adjust the page margins
 \usepackage[margin=0.5in]{geometry}
 
 %% Allow for hyperlinks
-\usepackage[unicode,colorlinks]{hyperref}
-\hypersetup {
+\usepackage[unicode]{hyperref}
+\hypersetup{
   pdftitle={Cameron Pickett's Resume},
   pdfauthor={Cameron Pickett},
-  pdfsubject={Resume}
-  pdfnewwindow=true
+  pdfsubject={Resume},
+  pdfnewwindow=true,
+  colorlinks,
+  urlcolor=purple
 }
 
 %% Personal data
@@ -31,6 +32,7 @@
 % \phone{ }
 % \fax{ }
 \email{pickett.cj@gmail.com}
+\social[github]{capickett}
 % \homepage{cpickett.org}
 % \extrainfo{ }
 % \photo[height][frame thickness]{picture.png}
